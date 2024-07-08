@@ -10,6 +10,60 @@
     <header class="box-border bg-gray-100 hover:bg-gray-50 rounded">
         <h1 class="font-mono text-4xl hover:text-orange-500 text-center flex items-center justify-center mt-4">Let's get some money</h1>
     </header>
-    <script src="login.js"></script>
+<main class="mt-24">
+    <section class="">
+        <div class="flex justify-center items-center gap-4 mx-auto">
+            <div class="bg-indigo-200 p-4 rounded-xl">
+                <h1 class="text-lg">Deposit</h1>
+                <h1 class="text-xl">$<span id="deposit-total">00</span></h1>
+            </div>
+
+            <div class="bg-amber-200 p-4 rounded-xl">
+                <h1 class="text-lg">Withdraw</h1>
+                <h1 class="text-xl">$<span id="withdraw-total">00</span></h1>
+            </div>
+
+            <div class="bg-lime-200 p-4 rounded-xl">
+                <h1 class="text-lg">Balance</h1>
+                <h1 class="text-xl text-wrap">$ <span id="balance-total">1000</span></h1>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="mt-5">
+        <div class="grid grid-cols-1 items-center gap-2 mx-auto">
+            <div class="bg-violet-200 p-2 rounded-xl">
+                <h1 class="text-lg">Please Deposit</h1>
+                <h1 class="text-4xl">$00</h1>
+
+                <input type="number" name="" id="deposit-field" placeholder="Deposit">
+                <button id="btn-deposit" class="bg-orange-400 hover:bg-orange-300 rounded p-1 mt-2 text-xl">Deposit</button>
+
+            </div>
+            
+            <div class="bg-rose-200 p-2 rounded-xl">
+                <h1 class="text-lg"> please Withdraw</h1>
+                <h1 class="text-4xl">$00</h1>
+
+                <input type="number" name="" id="withdraw-field" placeholder="Withdraw">
+                <button id="btn-withdraw" class="bg-orange-400 hover:bg-orange-300 rounded p-1 mt-2 text-xl">Withdraw</button>
+
+            </div> 
+        </div>
+    </section>
+</main>
+
+
+
+
+
+
+
+
+<script src="withdraw.js"></script>
+<script src="deposit.js"></script>
+<script src="login.js"></script>
+    
 </body>
 </html>
